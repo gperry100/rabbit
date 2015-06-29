@@ -1,0 +1,49 @@
+{  
+  "rabbit_version":"3.5.3",
+  "users":[  
+    {  
+      "name":"guest",
+      "password_hash":"tQD2E6U0/VSUJoEbzF10A86x7SI=",
+      "tags":"administrator"
+    }
+  ],
+  "vhosts":[  
+    {  
+      "name":"/"
+    }
+  ],
+  "permissions":[  
+    {  
+      "user":"guest",
+      "vhost":"/",
+      "configure":".*",
+      "write":".*",
+      "read":".*"
+    }
+  ],
+  "parameters":[  
+
+  ],
+  "policies":[  
+
+  ],
+  "queues":[  
+
+  ],
+  "exchanges":[  
+    {  
+      "name":"bunny_exchange",
+      "vhost":"/",
+      "type":"topic",
+      "durable":true,
+      "auto_delete":false,
+      "internal":false,
+      "arguments":{  
+
+      }
+    }
+  ],
+  "bindings":[  
+
+  ]
+}
